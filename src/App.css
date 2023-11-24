@@ -32,7 +32,67 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.menu {
+  display: flex;
+  background-color: black;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: gray;
+}
+
+.roupass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 85px;
+  background-color: brown;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.servicos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+.contato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+.sobre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
 }
